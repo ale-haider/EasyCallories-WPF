@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="EasyCallories.UiControls.CalInMealControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyCallories.UiControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+
+            <Border Padding="8" Margin="0,4,0,5" Background="#585858" BorderThickness="3" CornerRadius="8">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                    <Label Content="Cal pr 100g " Style="{StaticResource MaterialDesignLabel}" Foreground="Azure"/>
+                    <TextBox x:Name="Callpr100gInput" Text="{Binding CalPr100g, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="AliceBlue" Height="30" Margin="0,0,0,4" Foreground="Black" Padding="3" />
+                    <Label Content="Total weight of meal in g " Style="{StaticResource MaterialDesignLabel}" Foreground="Azure" />
+                    <TextBox x:Name="WeightOfFoodInput" Text="{Binding WeightOfFood, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="AliceBlue" Height="30" Margin="0,0,0,4" Foreground="Black" Padding="3" />
+                    <Label x:Name="CalInMealLabel" Content="{Binding CalInMeal}" Style="{StaticResource MaterialDesignLabel}" Foreground="Azure" FontSize="25"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button x:Name="GetCalInMealButton" Content="Calculate" Padding="4" Margin="0,0,8,0" Command="{Binding CalculateCommand}"/>
+                        <Button Content="Add to todays calories" Padding="4" Command="{Binding AddToCalUsedCommand}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

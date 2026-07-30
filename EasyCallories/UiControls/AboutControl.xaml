@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="EasyCallories.UiControls.AboutControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyCallories.UiControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Tis is a super simple food tracker.&#x0a;It rounds up the cal's to the next rounded number so it's more easy and you get a few free less cal's" Margin="4" FontSize="16" TextWrapping="Wrap" />
+        </StackPanel>
+            
+    </Grid>
+</UserControl>

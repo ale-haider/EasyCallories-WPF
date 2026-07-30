@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "e11IAq84RdI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ali3059\\source\\repos\\EasyCallories-master\\EasyCallories\\EasyCallories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ali3059\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\darknet\\2.3.0\\darknet.2.3.0.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\mahapps.metro\\2.4.11\\mahapps.metro.2.4.11.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\materialdesigncolors\\5.3.2\\materialdesigncolors.5.3.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\materialdesignthemes\\5.3.2\\materialdesignthemes.5.3.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\materialdesignthemes.mahapps\\5.3.2\\materialdesignthemes.mahapps.5.3.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.2\\microsoft.netframework.referenceassemblies.net461.1.0.2.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\ali3059\\.nuget\\packages\\tommy\\3.1.2\\tommy.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

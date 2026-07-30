@@ -1,0 +1,187 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EasyCallories/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "DarkNet": "2.3.0",
+          "MahApps.Metro": "2.4.11",
+          "MaterialDesignThemes": "5.3.2",
+          "MaterialDesignThemes.MahApps": "5.3.2",
+          "Tommy": "3.1.2"
+        },
+        "runtime": {
+          "EasyCallories.dll": {}
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "ControlzEx/4.4.0": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.4.0.50"
+          }
+        }
+      },
+      "DarkNet/2.3.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/DarkNet.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "MahApps.Metro/2.4.11": {
+        "dependencies": {
+          "ControlzEx": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.11.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "MaterialDesignColors/5.3.2": {
+        "runtime": {
+          "lib/net10.0-windows7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "5.3.2.0",
+            "fileVersion": "5.3.2.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.3.2": {
+        "dependencies": {
+          "MaterialDesignColors": "5.3.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.3.2.0",
+            "fileVersion": "5.3.2.0"
+          }
+        }
+      },
+      "MaterialDesignThemes.MahApps/5.3.2": {
+        "dependencies": {
+          "MahApps.Metro": "2.4.11",
+          "MaterialDesignColors": "5.3.2",
+          "MaterialDesignThemes": "5.3.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/MaterialDesignThemes.MahApps.dll": {
+            "assemblyVersion": "5.3.2.0",
+            "fileVersion": "5.3.2.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.77.27830"
+          }
+        }
+      },
+      "Tommy/3.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Tommy.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyCallories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "ControlzEx/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pZ5z4hYWwE4R13UMCVs6vII//nL7hz+Nwn4oJlnsZJRGqJNy6Z9KnJiTZfly6lKFu0pMc1aWBZpx+VqFTQKP1Q==",
+      "path": "controlzex/4.4.0",
+      "hashPath": "controlzex.4.4.0.nupkg.sha512"
+    },
+    "DarkNet/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yvITcWhHUAEoKet8mv7S442MbjtjhpXO/mMCXcwLAqEQrDZwSSOdWbTG2fqv7DvIEUOyZtzjmy5J4ZBiZN5gOA==",
+      "path": "darknet/2.3.0",
+      "hashPath": "darknet.2.3.0.nupkg.sha512"
+    },
+    "MahApps.Metro/2.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pvk757N/ViZy+zlbB56AakryuZkts328M6pX2mMn/Z7r5ifkScDrS300zSBjLd+eGOPeHgUjH4f7cZbRiMyvQg==",
+      "path": "mahapps.metro/2.4.11",
+      "hashPath": "mahapps.metro.2.4.11.nupkg.sha512"
+    },
+    "MaterialDesignColors/5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ru09iYhsnGcTI/La30zuzSeg/DXwvdFgDfvG17XU+/+XkIY915YiQFStZlykui5vpWzMEtyADh2c2T7CodrGrg==",
+      "path": "materialdesigncolors/5.3.2",
+      "hashPath": "materialdesigncolors.5.3.2.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/aQKjpxcwQt7aZ3JzGX64gr1CzsJK7vtm+l57zpejCs6GebWN4MZ536PHLWpyrgrLySrKxPSjSlWCw2A1HWig==",
+      "path": "materialdesignthemes/5.3.2",
+      "hashPath": "materialdesignthemes.5.3.2.nupkg.sha512"
+    },
+    "MaterialDesignThemes.MahApps/5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jY5KarRJmEujOeJKSy+6fMMBjUbnmaaOXDtAR/iG3CC6NPOYsueX+zLLVk044vmi9CYHE1bw5fdP9KAL6/llGg==",
+      "path": "materialdesignthemes.mahapps/5.3.2",
+      "hashPath": "materialdesignthemes.mahapps.5.3.2.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+    },
+    "Tommy/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fUImOjo1D8gzFDn5kLoR2Cv/Y50F24+bgovLUTYQdVXsh1u6FkSXA8teSikt9bXNHV+NUFavFZfEIsbI6m+wXw==",
+      "path": "tommy/3.1.2",
+      "hashPath": "tommy.3.1.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿<Application x:Class="EasyCallories.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EasyCallories"
+             xmlns:views="clr-namespace:EasyCallories.UiControls"
+             xmlns:vm="clr-namespace:EasyCallories.ViewModels"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Dark" 
+                                             PrimaryColor="DeepPurple" 
+                                             SecondaryColor="Lime" />
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
+
+                <!-- 3. Material Design & MahApps Compatibility "Glue" Styles -->
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.MahApps;component/Themes/MaterialDesignTheme.MahApps.Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.MahApps;component/Themes/MaterialDesignTheme.MahApps.Flyout.xaml" />
+
+                <!-- Map MahApps Brushes to use your Material Design palette -->
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.MahApps;component/Themes/MaterialDesignTheme.MahApps.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+                <views:HomeControl />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:CalInMealViewModel}">
+                <views:CalInMealControl />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:SettingsViewModel}">
+                <views:SettingsControl />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:AboutViewModel}">
+                <views:AboutControl />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
